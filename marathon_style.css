@@ -1,0 +1,50 @@
+* {
+  box-sizing: border-box;
+  background: #E5E5E5;
+  color: #AE7C78;
+}
+
+li {
+font-family: Montserrat;
+font-style: normal;
+font-weight: normal;
+font-size: 16px;
+line-height: 20px;
+display: inline;
+float: left;
+}
+
+nav a {
+  text-decoration: none;
+  display: block;
+  text-align: center;
+} /*Это для верхего меню*/
+nav {
+width: 1440px;
+height: 64px;
+} /*Это для верхего меню*/
+footer {
+position: absolute;
+width: 1440px;
+height: 97px;
+left: 0px;
+background-color: #AE7C78;
+}
+footer a {
+  font-family: Montserrat;
+font-style: normal;
+font-weight: normal;
+font-size: 16px;
+line-height: 20px;
+background-color: #AE7C78;
+text-align: center;
+color: #FFFFFF;
+
+}
+footer nav {
+  background-color: inherit;
+}
+.special {
+  display: inline-block;
+  float: right;
+}
